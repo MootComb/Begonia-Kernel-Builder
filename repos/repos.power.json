@@ -6,7 +6,7 @@
       "defconfig": "begonia_user_defconfig",
       "name": "Power-Non-Patches",
       "repo": "https://github.com/Saikrishna1504/kernel_xiaomi_mt6785",
-      "branch": "bka"
+      "branch": "main"
     },
     "withRoot": "none",
     "withSUSFS": false,
@@ -56,7 +56,7 @@
       "defconfig": "begonia_user_defconfig",
       "name": "Power-KSU-Next-SUSFS",
       "repo": "https://github.com/Saikrishna1504/kernel_xiaomi_mt6785",
-      "branch": "bka"
+      "branch": "main"
     },
     "withRoot": "ksun",
     "withSUSFS": true,
