@@ -222,10 +222,10 @@ jobs:
             rm -rf "./BKB"
           fi
 
-          BKB_BRANCH=main
+          BKB_BRANCH=dev
 
-          git clone --recursive -j $(nproc) --branch $BKB_BRANCH https://x-access-token:${{ secrets.GH_PAT }}@github.com/cvnertnc/susfs4ksu-begonia BKB
-
+          git clone --recursive -j $(nproc) --branch $BKB_BRANCH https://github.com/sidex15/susfs4ksu-begonia BKB
+          
       - name: "💉 APatch, SukiSU setup and [BACKPORT]: ptrace"
         id: apatch-sukisu-setup
         working-directory: ${{ env.KERNEL_NAME }}
